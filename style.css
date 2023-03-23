@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(138, 154, 168);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+    
+}
+.logo{
+    text-decoration: none;
+    color: #2c2b17;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #252515 ;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px; 
+}
+.ser:hover{
+    color: #0e3f99;
+}
+.pro:hover{
+    color: #0e3f99;
+}
+.con:hover{
+    color: #0e3f99;
+}
+
+
+
+section{
+    background-color: rgb(52, 27, 163);
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    padding-top: 15%;
+    background-image: url(https://www.gis4c.com/wp-content/uploads/2021/06/homepage-arcgis-platfrom-2021-tile.jpg-jpgW1920-1024x580.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y:top;
+    
+}
+.main h2{
+    
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.main  p{
+    color: rgb(200, 175, 206);
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+}
+.main h3 {
+    color: white;
+    font-size: 0.9 em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+.main-but{
+    background-color:bisque ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition-timing-function: 0.7s ease;
+    margin-bottom: 15px;
+}
+.main-but :hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    padding: 10px; 
+}
+.social-icons :hover{
+    transform: scale(1.1);
+    transition: 0.7;
+
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+.title :hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:rgb(200, 175, 206) ;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 15px;
+    padding: 32px;
+    margin: 15px;
+}   
+.card :hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+
+}
+.icon{
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+    margin-top: -30px;
+}
+.info{
+    text-align: center;
+}
+.projects{
+    background-color: rgb(0, 0, 0);
+
+}
+.projects .content{
+    margin-top: 30px;
+    flex-direction: row;
+
+}
+.project_card{
+    background-color: white ;
+    border: 1px wheat solid;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+}
+.project-image :hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.project-image :hover{
+    opacity: 0.9;
+
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    text-align: left;
+    padding: 1em;
+}
+.title-2{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.projectcategory{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.more-detiles{
+    text-decoration: none;
+    color: blue;
+}
+.more-detiles:hover{
+    color: #fc1c1c
+}
+.more-detiles:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.cards-contents .icon{
+    font-size: 4.5em;
+}
+.cards-contents .info h3{
+    color: black;
+}
+.cards-contents .info p{
+    font-size: 1em;
+}
+footer{
+    background-color: rgb(0, 2, 3);
+    width: 100%;
+    padding: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot p{
+    color: white;
+    font-size: larger;
+}
+.nameee{
+    color: blue;
+}
+@media (max-width : 1023px ){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+    .main h3 {
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width : 641px ){
+    body{
+        font-size: 12px;
+
+    }
+    .content h2 {
+        font-size: 0.8em;
+
+    }
+    .content h3 {
+        font-size: 1.4em;
+    }
+}
+@media (max-width : 300px ){
+    body{
+        font-size: 10px;
+
+    }
+
+}
